@@ -497,11 +497,11 @@ a, a:hover{
 }
 .footer{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: #15141a;
 }
 .footer img{
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 18px;
     color: #444348;
 }
@@ -510,7 +510,7 @@ a, a:hover{
     color: #444348;
 }
 .footer p{
-    margin-top: 25px;
+    margin-top: 10px;
     color:#444348 ;
 }
 
