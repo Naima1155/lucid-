@@ -8,16 +8,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap.css">
+    <!---owlcarousal.css-->
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,
     600&display=swap" rel="stylesheet">
 
-    <!---owlcarousal.css-->
-    <link rel="stylesheet" href="owl.carousel.min.css">
-    <link rel="stylesheet" href="owl.theme.default.min.css">
-
+    
     <title>Lucid | Home</title>
   </head>
   <body>
@@ -617,6 +618,26 @@
     <!---owlcarousal.js-->
     <script src="jquery.min.js"></script>
     <script src="owl.carousel.min.js"></script>
-    <script src="custom.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    autoplay:true,
+    autoplayTimeout: 8000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+   </script>
   </body>
 </html>
