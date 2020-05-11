@@ -333,13 +333,27 @@ a, a:hover{
     padding: 60px 0px;
 }
 .pricing .card{
+    width:100%
+}
+.pricing .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 .pricing .card-header{
     font-size: 22px;
     padding: 25px 0px;
     margin-bottom: 0px;
     background-color:#ffffff;
-    border-bottom: 1px solid rgba(0,0,0, .125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
     text-transform: uppercase;
     font-weight: 700;
 }
