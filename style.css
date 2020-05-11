@@ -41,7 +41,7 @@ a, a:hover{
 .header-section{
     width: 100%;
     height: 100vh;
-    background: url(bannerr.png): center top no-repeat;
+    background: url(bannerr.png) center top no-repeat;
     background-size: cover;
 }
 .header-section .bg-light {
