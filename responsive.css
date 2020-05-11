@@ -5,6 +5,17 @@
 */
   
 @media (min-width: 320px) and (max-width: 480px) {
+.banner-inner {
+      width: 100%;
+      /* padding: 80px 0px; */
+}
+.banner-inner h2 {
+      font-size: 32px;
+      line-height: 42px;
+      font-weight: 500;
+      color: white;
+      margin: 5px;
+ }
     .btn-double .btn-info {
     font-size: 12px;
     font-weight: 400;
@@ -71,7 +82,7 @@
     font-weight: 600;
     text-transform: uppercase;
     padding: 10px 35px;
-    margin-left: 40px;
+    margin-left: 70px;
     transition: 1s ease-in;
 }
 .pricing .card {
@@ -98,7 +109,6 @@
 }
 .form-control {
     width: 94%;
-    /* padding: 39px; */
     background: transparent;
     border: 1px solid #a7a8a8;
     margin: 10px 0px;
