@@ -5,69 +5,55 @@
 */
   
 @media (min-width: 320px) and (max-width: 480px) {
-    .header-section .navbar-light .navbar-nav .active>.nav-link{
-        color: #ffffff;
-        background-image:  url(icons/brr.png)center bottom no-repeat;
-    }
-    .header-section .navbar-light .navbar-nav .nav-link:hover {
-        background-image:  url(icons/brr.png) center bottom no-repeat;
-       
-    }
-    .navbar-toggler .fa-bars{
-        background-color:#008ed6 ;
-
-    }
-    
-    .banner {
-        width: 100%;
-        padding: 65px 0px;
-    }
-    .banner-inner h2 {
-        font-size: 25px;
-        line-height: 25px;
-        font-weight: 500;
-        color: white;
-        margin-bottom: 15;
-    }
-    .banner-inner p {
-        width: 100%;
-        font-size: 15px;
-        line-height: 20px;
-        font-weight: 400;
-        color: #6b6c6e;
-    }
-    .btn-double .btn-info {
-        font-size: 15px;
+        .btn-double .btn-info {
+        font-size: 12px;
         font-weight: 400;
         text-transform: uppercase;
-        padding: 12px 35px;
-        margin-right: 25px;
-        margin-left: 81px;
-        border-radius: 3px;
+        padding: 8px 10px;
+        /* border-radius: 3px; */
+        margin-bottom: 10px;
         color: white;
         background: #008ed6;
         border: 1px solid #008ed6;
         transition: 1s ease-in;
     }
     .btn-double .btn-primary {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         text-transform: uppercase;
-        padding: 12px 35px;
-        margin-left: 88px;
+        padding: 8px 10px;
+        /* margin-left: 88px; */
+        margin-bottom: 10px;
         border-radius: 3px;
         color: white;
         background: transparent;
         border: 1px solid #ffffff;
         transition: 1s ease-in;
     }
+    .testimonial .owl-carousel .item h5 {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 24px;
+        margin-left: 8px;
+        color: white;
+    }
+    .eye-cather h3 {
+        color: white;
+        font-size: 28px;
+        margin-top: 10px;
+        font-weight: 500;
+        margin-left: 8px;
+        margin-bottom: 30px;
+    }
     .eye-cather .btn-primary {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         text-transform: uppercase;
-        padding: 12px 35px;
+        padding: 8px 10px;
         margin-right: 15px;
-        margin-left: 80px;
+        margin-left: 110px;
+        margin-bottom: 10px;
         border-radius: 3px;
         color: white;
         background: transparent;
@@ -78,18 +64,43 @@
         font-size: 15px;
         font-weight: 600;
         text-transform: uppercase;
-        padding: 12px 35px;
-        margin-left: 70px;
+        padding: 10px 35px;
+        margin-left: 40px;
         transition: 1s ease-in;
     }
-    .form {
-        width: 80%;
-        padding: 15px;
-        margin-top: 10px;
-        background: black;
-        margin-left: 45px;
+    .pricing .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        margin-left: 20px;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
     }
-
+    .form {
+        /* height: 450px; */
+        /* float: left; */
+        position: absolute;
+        padding: 30px 30px;
+        background: black;
+        /* margin-left: 100px; */
+    }
+    .form-control {
+        width: 94%;
+        /* padding: 39px; */
+        background: transparent;
+        border: 1px solid #a7a8a8;
+        margin: 10px 0px;
+        border-radius: 5px;
+    }
+     
+      
+}    
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
