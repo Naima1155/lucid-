@@ -453,8 +453,8 @@ a, a:hover{
 
 }
 .form {
+    width:75%;
     height: 450px;
-    /* float: left; */
     position: absolute;
     padding: 30px 30px;
     background: black;
@@ -467,12 +467,12 @@ a, a:hover{
 }
 .form-group span{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 .form-control{
     width: 94%;
-    padding: 39px;
+    padding: 35px;
     background: transparent;
     border: 1px solid #a7a8a8;
     margin: 10px 0px;
@@ -485,14 +485,14 @@ a, a:hover{
 
 }
 .send .btn{
-    padding: 10px 10px;
+    padding: 9px 9px;
     margin-bottom: 20px;
     background: transparent;
     color: white;
     
     border: 1px solid#15a4fa ;
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 
 }
